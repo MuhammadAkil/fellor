@@ -31,9 +31,7 @@ A modern, enterprise-grade hiring management dashboard built with **Next.js 14**
 
 ### Install dependencies:
 
-npm install
-# or
-npm i -f
+npm install or npm i -f
 
 Set up the environment file:
 
@@ -78,15 +76,19 @@ Test Summary (as of June 27, 2025): All test cases have passed successfully with
 
 
 ### Build & Deploy
-Build Commands Run
+Build Commands
+
+Run
 
 npm run build
+
 Start the production server:
 
 
 
 
 Run
+
 npm run start
 
 ### Deployment
