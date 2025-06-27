@@ -11,6 +11,8 @@
 /build
 
 .env.local
+.swc/
+
 
 # debug
 npm-debug.log*

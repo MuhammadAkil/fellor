@@ -1,30 +1,68 @@
-# Next.js dashboard
+Hiring Insights Dashboard
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern, enterprise-grade hiring management dashboard built with Next.js 14, TypeScript, and React Query. It provides an intuitive interface for managing candidates, jobs, interviews, and hiring analytics.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/muhammadakils-projects/v0-next-js-dashboard)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/RJJ5Bl2KlgF)
+Status: Production Ready
 
-## Overview
+Next.js 14.1.0 | TypeScript 5.0 | React Query 5.17.15
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
-## Deployment
 
-Your project is live at:
+Features
+•	📊 Dashboard Analytics – Real-time hiring insights with interactive charts
+•	📱 Responsive Design – Fully mobile-optimized layout
 
-**[https://vercel.com/muhammadakils-projects/v0-next-js-dashboard](https://vercel.com/muhammadakils-projects/v0-next-js-dashboard)**
 
-## Build your app
+Tech Stack
+• Next.js 14 + React 18 + TypeScript 5
+• Tailwind CSS + shadcn/ui + radix ui
+• Chart.js, Recharts, React Query, React Hook Form
 
-Continue building your app on:
 
-**[https://v0.dev/chat/projects/RJJ5Bl2KlgF](https://v0.dev/chat/projects/RJJ5Bl2KlgF)**
+Getting Started
+1. Clone the repo
+2. Install dependencies |  npm install  or npm i -f
+3. Set up the environment file
+4. Run the dev server
 
-## How It Works
+```bash
+git clone https://github.com/MuhammadAkil/feller.git
+cd feller
+npm install
+cp .env.example .env.local
+npm run dev
+```
+Visit http://localhost:3000
+Testing
+Run Tests
+```bash
+npm run test           # Run all tests
+npm run test:watch     # Watch mode
+npm run test:coverage  # With coverage report
+```
+Test Summary (as of submission):
+ 
+Project Structure
+├── app/
+├── components/
+├── constant/
+├── data/
+├── hooks/
+├── lib/
+├── services/api/
+├── types/
+├── __tests__/
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Build & Deploy
+Build Commands
+```bash
+npm run build
+npm run start
+```
+Deployment via Vercel is recommended. Connect the GitHub repo and auto-deploy on push.
+License
+
+This project is licensed under the MIT License.
+
+Developer Note
+This dashboard was built with clean code, component reusability, and testable architecture in mind. All test cases have passed successfully with coverage reports provided.
