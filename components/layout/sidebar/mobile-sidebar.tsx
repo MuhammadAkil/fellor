@@ -23,9 +23,6 @@ const MobileSidebar = memo(function MobileSidebar({ isOpen, onClose }: MobileSid
 							</div>
 							<SheetTitle className="text-xl font-bold text-gray-900">FELLOR</SheetTitle>
 						</div>
-						<Button variant="ghost" size="icon" onClick={onClose}>
-							<X className="w-5 h-5" />
-						</Button>
 					</div>
 				</SheetHeader>
 				<SidebarContent onItemClick={onClose} />
