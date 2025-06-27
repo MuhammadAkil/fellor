@@ -1,0 +1,51 @@
+{
+  "last30Days": [
+    {
+      "date": "2024-01-01",
+      "applicationToInterviewRate": 45.2,
+      "offerAcceptanceRate": 38.7,
+      "rejectionRate": 28.3
+    },
+    {
+      "date": "2024-01-02",
+      "applicationToInterviewRate": 47.8,
+      "offerAcceptanceRate": 41.2,
+      "rejectionRate": 25.9
+    },
+    {
+      "date": "2024-01-03",
+      "applicationToInterviewRate": 52.1,
+      "offerAcceptanceRate": 39.4,
+      "rejectionRate": 31.7
+    },
+    {
+      "date": "2024-01-04",
+      "applicationToInterviewRate": 48.9,
+      "offerAcceptanceRate": 43.8,
+      "rejectionRate": 27.2
+    },
+    {
+      "date": "2024-01-05",
+      "applicationToInterviewRate": 51.3,
+      "offerAcceptanceRate": 37.6,
+      "rejectionRate": 29.8
+    }
+  ],
+  "metrics": {
+    "applicationToInterviewRate": {
+      "current": 49.2,
+      "previous": 46.8,
+      "trend": "up"
+    },
+    "offerAcceptanceRate": {
+      "current": 40.1,
+      "previous": 38.9,
+      "trend": "up"
+    },
+    "rejectionRate": {
+      "current": 28.4,
+      "previous": 31.2,
+      "trend": "down"
+    }
+  }
+}
